@@ -43,7 +43,7 @@ export default function Navbar() {
       {/* Right Actions */}
       <div className="flex items-center gap-6">
         <a 
-          href="https://drive.google.com/file/d/15AoNtzev8DTdXiTj5r0ST9Hyx-jj7MX2/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1OQGZwO376S3EUHPWlv52HEuVhZy6Y691/view?usp=sharing" 
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-[11px] font-bold tracking-[0.2em] text-white backdrop-blur-xl transition-all hover:bg-white hover:text-black"
