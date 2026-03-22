@@ -7,24 +7,24 @@ export default function Contact() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="bg-[#0a0a0a] pt-32 pb-16 border-t border-white/5">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+    <footer id="contact" className="bg-[#0a0a0a] pt-20 sm:pt-32 pb-12 sm:pb-16 border-t border-white/5">
+      <div className="container mx-auto px-6 sm:px-8 md:px-16 lg:px-24">
         
-        {/* Section 08: Let's Build Something Impactful */}
-        <div className="mb-32">
+        {/* Section 08 */}
+        <div className="mb-20 sm:mb-32">
           <div className="max-w-4xl">
-            <p className="text-xs font-bold tracking-[0.3em] uppercase text-white/40 mb-6">08 • Contact</p>
-            <h2 className="text-5xl md:text-8xl font-bold tracking-tighter mb-12 leading-[0.9]">
+            <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-white/40 mb-4 sm:mb-6">08 • Contact</p>
+            <h2 className="text-4xl sm:text-5xl md:text-8xl font-bold tracking-tighter mb-8 sm:mb-12 leading-[0.9]">
               Let’s Build Something <br />
               <span className="text-white/40 italic font-serif uppercase">Impactful</span>
             </h2>
             
             <motion.a 
               href="mailto:samanvitadharwadkar@gmail.com"
-              className="inline-flex items-center gap-4 text-2xl md:text-4xl font-bold border-b-2 border-white/20 pb-2 hover:border-white transition-all group"
+              className="inline-flex items-center gap-2 sm:gap-4 text-base sm:text-2xl md:text-4xl font-bold border-b-2 border-white/20 pb-2 hover:border-white transition-all group break-all sm:break-normal"
             >
               samanvitadharwadkar@gmail.com
-              <ArrowUpRight className="h-8 w-8 text-white/40 group-hover:text-white transition-colors" />
+              <ArrowUpRight className="h-5 w-5 sm:h-8 sm:w-8 text-white/40 group-hover:text-white transition-colors flex-shrink-0" />
             </motion.a>
           </div>
         </div>
@@ -71,9 +71,9 @@ export default function Contact() {
           </div>
 
           {/* Legal / Copyright */}
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 text-[10px] font-bold uppercase tracking-[.3em] text-white/20">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 text-[10px] font-bold uppercase tracking-[.3em] text-white/20 text-center">
             <p>© {currentYear} Samanvita Dharwadkar</p>
-            <p className="flex gap-8">
+            <p className="flex gap-6">
               <span>Privacy-First</span>
               <span>Hubballi-Based</span>
             </p>

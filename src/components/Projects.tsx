@@ -58,11 +58,11 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-32 bg-[#0a0a0a]">
-      <div className="container mx-auto px-8 md:px-16 lg:px-32">
-        <div className="mb-20">
-          <p className="text-[10px] font-bold tracking-[0.4em] uppercase text-white/40 mb-4">Section 04 • Portfolio</p>
-          <h2 className="text-5xl md:text-7xl font-black tracking-tighter text-white uppercase italic">Selected <span className="text-white/30 not-italic">Work.</span></h2>
+    <section id="projects" className="py-20 sm:py-32 bg-[#0a0a0a]">
+      <div className="container mx-auto px-6 sm:px-8 md:px-16 lg:px-32">
+        <div className="mb-12 sm:mb-20">
+          <p className="text-[9px] sm:text-[10px] font-bold tracking-[0.4em] uppercase text-white/40 mb-3 sm:mb-4">Section 04 • Portfolio</p>
+          <h2 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter text-white uppercase italic">Selected <span className="text-white/30 not-italic">Work.</span></h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
@@ -85,16 +85,16 @@ export default function Projects() {
               </div>
 
               {/* Content */}
-              <div className="p-10 md:p-12 flex flex-col h-full bg-gradient-to-b from-transparent to-black/90">
-                <div className="flex justify-between items-start mb-8">
+              <div className="p-6 sm:p-10 md:p-12 flex flex-col h-full bg-gradient-to-b from-transparent to-black/90">
+                <div className="flex justify-between items-start mb-5 sm:mb-8">
                   <div>
-                    <h3 className="text-3xl font-black mb-2 tracking-tighter uppercase text-white">{project.title}</h3>
-                    <p className="text-[10px] font-bold text-white/40 tracking-[0.3em] uppercase">{project.subtitle}</p>
+                    <h3 className="text-xl sm:text-3xl font-black mb-1 sm:mb-2 tracking-tighter uppercase text-white">{project.title}</h3>
+                    <p className="text-[9px] sm:text-[10px] font-bold text-white/40 tracking-[0.3em] uppercase">{project.subtitle}</p>
                   </div>
-                  <project.icon className="h-8 w-8 text-white/20 group-hover:text-white/60 transition-colors" />
+                  <project.icon className="h-6 w-6 sm:h-8 sm:w-8 text-white/20 group-hover:text-white/60 transition-colors" />
                 </div>
                 
-                <p className="text-white/60 text-lg font-light leading-relaxed mb-10">
+                <p className="text-white/60 text-sm sm:text-lg font-light leading-relaxed mb-6 sm:mb-10">
                   {project.description}
                 </p>
 
@@ -107,23 +107,23 @@ export default function Projects() {
                 </div>
 
                 {/* HIGH CONTRAST BUTTONS */}
-                <div className="flex items-center gap-4 mt-auto pt-8 border-t border-white/10">
+                <div className="flex items-center gap-3 mt-auto pt-6 sm:pt-8 border-t border-white/10">
                   <a 
                     href={project.live} 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 inline-flex items-center justify-center gap-3 py-4 rounded-full bg-white text-black text-xs font-black tracking-[0.3em] uppercase hover:bg-white/90 transition-all"
+                    className="flex-1 inline-flex items-center justify-center gap-2 py-3 sm:py-4 rounded-full bg-white text-black text-[9px] sm:text-xs font-black tracking-[0.2em] sm:tracking-[0.3em] uppercase hover:bg-white/90 transition-all"
                   >
-                    LIVE PREVIEW <ArrowUpRight className="h-4 w-4" />
+                    LIVE PREVIEW <ArrowUpRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
                   </a>
                   <a 
                     href={project.github} 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-4 rounded-full bg-white/5 border border-white/10 text-white hover:bg-white hover:text-black transition-all"
+                    className="p-3 sm:p-4 rounded-full bg-white/5 border border-white/10 text-white hover:bg-white hover:text-black transition-all"
                     title="View GitHub"
                   >
-                    <Github className="h-5 w-5" />
+                    <Github className="h-4 w-4 sm:h-5 sm:w-5" />
                   </a>
                 </div>
               </div>

@@ -46,9 +46,9 @@ export default function Experience() {
 
           {/* Section 7: Experience & Leadership */}
           <div>
-            <div className="mb-16">
-              <p className="text-xs font-bold tracking-[0.3em] uppercase text-white/40 mb-3">07 • Leadership</p>
-              <h2 className="text-5xl font-bold tracking-tighter text-white">Professional <span className="text-white/40 italic font-serif">Experience</span></h2>
+            <div className="mb-10 sm:mb-16">
+              <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-white/40 mb-2 sm:mb-3">07 • Leadership</p>
+              <h2 className="text-3xl sm:text-5xl font-bold tracking-tighter text-white">Professional <span className="text-white/40 italic font-serif">Experience</span></h2>
             </div>
 
             <div className="space-y-12">
